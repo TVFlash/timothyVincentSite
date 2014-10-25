@@ -1,3 +1,4 @@
+/** Divs **/
 #header {
 	width: 100%;
 	height: 500pt;
@@ -16,9 +17,17 @@
 	background-color: #2980b9;
 }
 
+#buttonHolder {
+	width: 100%;
+	height: 150pt;
+	background-color: #ecf0f1;
+	margin-left: 325pt;
+
+}
+
 #footer {
 	width: 100%;
-	height: 500pt;
+	height: 200pt;
 	background-color: #2980b9; 
 }
 
@@ -32,6 +41,7 @@ body {
 
 
 }
+/** Classes **/
 .logo {
 	margin-top: auto;
 	margin-left: auto;
@@ -67,48 +77,44 @@ body {
 	width: 10em;
 }
 
-.footerBox {
+.pHeader3 {
 	margin-top: auto;
 	margin-left: auto;
 	margin-right: auto;
 	font-family: 'Oswald', sans-serif;
 	font-size: 45px;
-	width: 8em;
+	width: 5em;
+}
+.footerBox {
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	width: 10em;
 }
 
-@-webkit-keyframes flash {
-  0%, 50%, 100% {
-    opacity: 1;
-  }
-
-  25%, 75% {
-    opacity: 0;
-  }
+.horiz {
+	font-size:20px;
+	width:600px;
+	padding-bottom:20px;
+	border-top:1px solid;
+	margin:0 auto;
+	margin-top:20px;
+	padding-top:10px;
+	font-weight:400;
 }
 
-@keyframes flash {
-  0%, 50%, 100% {
-    opacity: 1;
-  }
-
-  25%, 75% {
-    opacity: 0;
-  }
+.horiz_blue {
+	margin-top:20px;
+	color:#2980b9;	
+}
+.horiz_white {
+	margin-top:20px;
+	color:#ecf0f1;	
 }
 
-.flash {
-  -webkit-animation-name: flash;
-          animation-name: flash;
-}
-
-@-webkit-keyframes fade-in {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-.fade-in {
-  -webkit-animation-name: fade-in;
-}
+/** Elements **/
 
 button, .button {
   border: 0;
@@ -144,22 +150,40 @@ button, .button {
               2px 1px #3a587f, 1px 2px #4171ae;
   }
 }
-.horiz {
-	font-size:20px;
-	width:600px;
-	padding-bottom:20px;
-	border-top:1px solid;
-	margin:0 auto;
-	margin-top:20px;
-	padding-top:10px;
-	font-weight:400;
+
+/** Animation **/
+
+@-webkit-keyframes flash {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
 }
 
-.horiz_blue {
-	margin-top:20px;
-	color:#2980b9;	
+@keyframes flash {
+  0%, 50%, 100% {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
 }
-.horiz_white {
-	margin-top:20px;
-	color:#ecf0f1;	
+
+.flash {
+  -webkit-animation-name: flash;
+          animation-name: flash;
 }
+
+@-webkit-keyframes fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.fade-in {
+  -webkit-animation-name: fade-in;
+}
+
