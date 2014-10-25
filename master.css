@@ -119,13 +119,11 @@ body {
 	color:#ecf0f1;	
 }
 
-.buffer {
-	margin-left: 75pt;
-	padding: 8px 14px;
-
-
+.container {
+	box-sizing: border-box;
+	display: inline-block
+    width: 20%;
 }
-
 /** Elements **/
 
 button, .button {
