@@ -123,14 +123,13 @@ body {
 	box-sizing: border-box;
 	display: inline-block;
 	height: 70px;
-	width: 28.5%;
+	width: 19.7%;
 	text-align: center;
 }
 /** Elements **/
 
 button, .button {
   border: 0; 
-  margin-left: 50pt;
   background: #2980b9;
   color: white;
   padding: 8px 14px;
