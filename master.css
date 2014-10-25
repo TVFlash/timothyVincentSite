@@ -77,7 +77,7 @@ body {
 	margin-right: auto;
 	font-family: 'Oswald', sans-serif;
 	font-size: 45px;
-	width: 8em;
+	text-align: center;
 }
 
 .pHeader2 {
@@ -86,7 +86,7 @@ body {
 	margin-right: auto;
 	font-family: 'Oswald', sans-serif;
 	font-size: 45px;
-	width: 10em;
+	text-align: center;
 }
 
 .pHeader3 {
@@ -95,8 +95,19 @@ body {
 	margin-right: auto;
 	font-family: 'Oswald', sans-serif;
 	font-size: 45px;
-	width: 5em;
+	text-align: center;
 }
+
+.textHolder {
+	margin-top: auto;
+	margin-left: 29%;
+	margin-right: auto;
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	width: 45%;
+	text-align: left;
+}
+
 .footerBox {
 	margin-top: auto;
 	margin-left: auto;
@@ -138,6 +149,7 @@ body {
 	width: 32.8%;
 	text-align: center;
 }
+
 /** Elements **/
 
 button, .button {
