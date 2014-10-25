@@ -123,13 +123,20 @@ body {
 	box-sizing: border-box;
 	display: inline-block;
 	height: 70px;
-	width: 19.7%;
+	width: 35%;
+	text-align: center;
+}
+.buffer {
+	box-sizing: border-box;
+	display: inline-block;
+	width: 31.25%;
 	text-align: center;
 }
 /** Elements **/
 
 button, .button {
   border: 0; 
+  margin-left: 25pt;
   background: #2980b9;
   color: white;
   padding: 8px 14px;
